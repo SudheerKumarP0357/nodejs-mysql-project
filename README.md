@@ -1,35 +1,4 @@
-
-# DevOps Shack User Management App
-
-This is a full-stack application for managing users with a front-end built using HTML, CSS, and JavaScript, and a back-end powered by Node.js, Express, and MySQL.
-
-## Table of Contents
-
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-  - [1. Setting Up MySQL Server](#1-setting-up-mysql-server)
-  - [2. Configuring and Running the Client](#2-configuring-and-running-the-client)
-  - [3. Configuring and Running the Server](#3-configuring-and-running-the-server)
-- [Usage](#usage)
-- [License](#license)
-
-## Features
-
-- Add new users with a name, email, and role (User/Admin).
-- View a list of all users.
-- Edit user details.
-- Delete users.
-- Responsive and user-friendly UI.
-- Smooth animations and minimalistic design.
-
-## Prerequisites
-
-Before setting up this project, ensure you have the following installed on your machine:
-
-- [Node.js](https://nodejs.org/) (version 12.x or higher)
-- [MySQL](https://www.mysql.com/) (version 5.7 or higher)
-
+# NodeJS & MySQL Project
 ## Setup Instructions
 
 ### 1. Setting Up MySQL Server
@@ -103,6 +72,10 @@ First, you need to set up a MySQL server on your local machine.
    This table will store user information, including their name, email, and role.
 
 ### 2. Configuring and Running the Client
+Clone the project into your local machine.
+```bash
+git clone https://github.com/SudheerKumarP0357/nodejs-mysql-project.git
+```
 
 The client side of the application is built using modern JavaScript, HTML, and CSS. To configure and run the client:
 
@@ -153,17 +126,4 @@ The server side is built using Node.js and Express and connects to the MySQL dat
 ## Usage
 
 After following the setup instructions, you can access the application by navigating to `http://localhost:5000` in your web browser.
-
-### User Management Features:
-
-- **Add User:** Fill in the name, email, and role in the form and click "Add User" to add a new user.
-- **View Users:** The user list will be displayed below the form. Each user entry will have "Edit" and "Delete" buttons.
-- **Edit User:** Click the "Edit" button next to a user entry to update their details.
-- **Delete User:** Click the "Delete" button next to a user entry to remove them from the list.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### NOTE: This Application Should not be used for commercial purpose by anyone else other than DevOps Shack
 
